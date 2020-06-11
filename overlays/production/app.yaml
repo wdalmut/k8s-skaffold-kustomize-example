@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: app
   labels:
-    app: nginx
+    app: hello
 spec:
   replicas: 10
   strategy:
