@@ -1,3 +1,3 @@
-# Demo about Kustomize
+# Demo about Skaffold and Kustomize
 
-A simple demo about Kustomize.io
+A simple demo about Kustomize.io and Skaffold.dev
