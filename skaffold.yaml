@@ -1,0 +1,13 @@
+apiVersion: skaffold/v2beta4
+kind: Config
+metadata:
+  name: hello-world
+build:
+  artifacts:
+  - image: wdalmut/hello
+    context: src/hello
+    docker:
+      dockerfile: Dockerfile
+deploy:
+  kustomize:
+    paths: ["./overlays/development"]
